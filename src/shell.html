@@ -1,0 +1,30 @@
+<title>Laboratorio Linux</title>
+<meta name="description" content="Aprende Linux desde cero con una terminal simulada: teoría, retos prácticos y simuladores de Sistemas Operativos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+/*CSS*/
+</style>
+<div class="app">
+  <header class="top">
+    <button class="brand" id="brand" type="button" aria-label="Ir a la ruta de aprendizaje">
+      <span class="mark" aria-hidden="true"><span>&gt;</span>_</span>
+      <span><b>Laboratorio Linux</b><small>LFS101 + Sistemas Operativos</small></span>
+    </button>
+    <nav class="nav" aria-label="Secciones">
+      <button type="button" data-v="home">Ruta</button>
+      <button type="button" data-v="free">Terminal libre</button>
+      <button type="button" data-v="ref">Chuleta</button>
+    </nav>
+    <div class="overall" title="Retos completados"><span class="lbl">Avance</span><span class="bar"><i id="ov-bar"></i></span><span id="ov-n">0/0</span></div>
+  </header>
+  <main class="view" id="v-home"></main>
+  <main class="view" id="v-lesson" hidden></main>
+  <main class="view" id="v-free" hidden></main>
+  <main class="view" id="v-ref" hidden></main>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+/*JS*/
+</script>
